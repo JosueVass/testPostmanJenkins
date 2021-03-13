@@ -1,0 +1,12 @@
+{
+  "name": "NombrePaquete",
+  "version": "1.0.0",
+  "description": "Descripcion del Paquete",
+  "scripts": {
+    "nombre-instruccion": "newman run tests/NombreColeccion.json --reporters cli,junit --reporter-junit-export newman.xml"
+  },
+  "author": "Nombre del autor",
+  "dependencies": {
+    "newman": "^5.2.2"
+  }
+}
